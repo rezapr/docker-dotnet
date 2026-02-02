@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: emporium-service
+  name: dotnet-service
   namespace: binaryit
 spec:
   type: NodePort
@@ -16,4 +16,4 @@ spec:
     #   targetPort: 3002 
     #   protocol: TCP
   selector:
-    app: emporium
+    app: dotnet
