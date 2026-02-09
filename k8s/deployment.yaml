@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: dotnet
-          image: renderman/dotnet:3
+          image: renderman/dotnet:4
           resources:
             requests:
               memory: "64Mi"
